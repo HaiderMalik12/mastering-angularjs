@@ -1,0 +1,24 @@
+Why Angular:
+
+-Separating application Logic from Data
+-STructure client side web App with
+-directives,filters,bindings,bindinig specific operations
+-Controllers Services and Models are used to glue
+all the logic 
+-Controllers and binding markups work together
+-Great for caching server side response
+-Reducing the amount of work that the server has
+ to generate the HTML Response
+ -AngularJS provides capability to create Single Page Application in a very clean and maintainable way.
+ -AngularJS provides data binding capability to HTML thus giving user a rich and responsive experience
+ -AngularJS code is unit testable.
+ -AngularJS uses dependency injection and make use of separation of concerns.
+ -AngularJS provides reusable components.
+ -With AngularJS, developer write less code and get more functionality.
+ -In AngularJS, views are pure html pages, and controllers written in JavaScript do the business processing.
+ -Modules
+ :
+
+ --With Modules you can separate your app in multiple parts
+ --directive Module
+ --

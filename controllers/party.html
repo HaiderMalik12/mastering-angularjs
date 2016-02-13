@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Party Coding by Type</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="party-controller.js"></script>
+</head>
+
+<body style="background-color: lightgrey; font-size: 20px;font-family: inherit;">
+    <h1> Party COding By Type </h1>
+    <div ng-app="myApp" data-ng-controller="partyCtrl">
+        <p> Party Id </p>
+        <input type="text" data-ng-model="partyId" />
+        <p>
+            <input type="text" data-ng-model="partyName"></input>
+        </p>
+        <p> Party Id <span data-ng-bind="partyId"></span> </p>
+        <p> Party Name <span data-ng-bind="partyName"></span> </p>
+    </div>
+</body>
+
+</html>

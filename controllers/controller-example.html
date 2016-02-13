@@ -1,0 +1,46 @@
+<!-- 
+- controllers control the data of AngularJS application
+- controllers are regular javascript Objects
+-
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example Controller</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="person-controller.js"></script>
+</head>
+
+<body style="background-color: lightgrey">
+    <div data-ng-app="myApp" data-ng-controller="myCtrl" style="font-size: 20px;font-family
+: fantasy; color: grey">
+        FirstName :
+        <input type="text" data-ng-model="firstName" style="text-align: center;" />
+        <br> Last Name :
+        <input type="text" data-ng-model="lastName" style="text-align: center;" />
+        <br> City :
+        <input type="text" data-ng-model="city" style="text-align: center; background-color: white" />
+        <br> Address :
+        <textarea data-ng-model="address"></textarea>
+        <br> Full Name : {{firstName + " "+lastName + " "+city + " "+address}}
+        <p>First Name : <span data-ng-bind="firstName"></span> </p>
+        <p>Last Name : <span data-ng-bind="lastName"></span> </p>
+        <p>City : <span data-ng-bind="city"></span> </p>
+        <p>Address : <span data-ng-bind="address"></span> </p>
+       
+         <h1> {{firstName}} Favt Song Collection  </h1>
+        <ul>
+         
+          <li data-ng-repeat=" song in songs">
+            {{song.artist + '  '+ song.albumName}}
+          </li>
+        
+        <ul>
+
+
+
+    </div>
+</body>
+
+</html>
